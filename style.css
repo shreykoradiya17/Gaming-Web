@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tektur', cursive;
+    background-color: rgb(245,245,244);
+}
+
+.section1{
+    width: 100%;
+    height: 1460px;
+    /* border: 1px solid black; */
+    background-color: rgb(245,245,244);
+    padding-top: 18px;
+    position: relative;
+}
+.section1 .navbar{
+    width: 65%;
+    height: 65px;
+    background-color: black;
+    margin: auto;
+    border-radius: 16px; 
+    display: flex;
+    padding: 5px;
+    /* padding-top: 7px; */
+}
+.section1 .navbar .navlogo{
+    width: 7%;
+    height: 55px;
+    /* border: 1px solid white; */
+    border-radius: 12px; 
+    background-color: rgb(244,87,69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1 .navbar .navlinks{
+    width: 70%;
+    height: 55px;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 20px;
+}
+.section1 .navbar .navlinks a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: 0.5s;
+    font-size: 16px;
+    
+}
+.section1 .navbar .navlinks a:hover{
+    color: rgb(244,87,69);
+}
+.section1 .navbar .navend{
+    width: 27%;
+    height: 55px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+.section1 .navbar .navend img{
+    width: 35%;
+    height: 55px;
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.section1 .navbar .navend .imgv{
+    width: 28%;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    cursor: pointer;
+}
+.section1 .navbar .navend button{
+    width: 68%;
+    background-color: white;
+    border: none;
+    border-radius: 10px; 
+    margin: 1px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+}
+.section1 .navbar i{
+    display: none;
+}
+.section1 .s1text{
+    width: 50%;
+    margin: auto;
+    height: 300px;
+    /* border: 1px solid black; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+.section1 .s1text h1{
+    font-size: 65px;
+    color: rgb(244,87,69);
+    font-weight: 600;
+    line-height: 60px;
+}
+.section1 .s1text span{
+    font-size: 65px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.section1 .s1text p{
+    font-size: 12px;
+    color: rgb(45, 45, 45);
+    letter-spacing: 5px;
+}
+
+.section1 .s1box1{
+    margin-top: 400px;
+    border-radius: 30px;
+    margin-left: 2.5%;
+    width: 95%;
+    height: 120vh;
+    background-color: rgb(244,87,69);
+    display: flex; 
+    flex-direction: column;
+   
+}
+.simg1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.section1 .s1box1 .simg1 .i1{
+   width: 29%;
+   height: 480px;
+   background: url(img1.webp);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   bottom: 350px;
+   border-radius: 20px;
+}
+.section1 .s1box1 .simg1 .i2{
+    width: 29%;
+    height: 480px;
+    background: url(img3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    bottom: 350px;
+    border-radius: 20px;
+}
+.section1 .s1box1 .simg1 .i3{
+    width: 29%;
+    height: 480px;
+    background: url(img2.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    bottom: 350px;
+    border-radius: 20px;
+}
+.section1 .s1box1 .s11{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 250px;
+}
+.section1 .s1box1 .s11{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.section1 .s1box1 .s11 .s111{
+    width: 45%;
+    height: 400px;
+    /* border: 1px solid black; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.section1 .s1box1 .s11 .s111 h1{
+    color: white;
+    font-size: 45px; 
+}
+.section1 .s1box1 .s11 .s111 p{
+    color: white;
+    font-size: 16px; 
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.section1 .s1box1 .s222{
+    width: 55%;
+    height: 400px;
+    /* border: 1px solid black; */
+    padding-inline: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section1 .s1box1 .s222 .ss2{
+    width: 27%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.section1 .s1box1 .s222 .ss2 i{
+    font-size: 70px;
+    color: white;
+}
+.section1 .s1box1 .s222 .ss2 p{
+    font-size: 16px;
+    color: white;
+    margin-top: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+}
+.section1 .navbar2{
+    display: none;
+}
+
+
+.section3{
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid black; */
+    background-color: rgb(245,245,244);
+    padding-top: 140px;
+}
+.section3 .s3text{
+    width: 50%;
+    height: 180px;
+    margin: auto;
+    /* border: 1px solid black; */
+    text-align: center;
+    /* margin-top: 100px; */
+    margin-bottom: 80px;
+}
+.section3 .s3text h1{
+    font-size: 60px;
+    line-height: 65px;
+    color: black;
+}
+.section3 .s3text span{
+    font-size: 60px;
+    /* color: rgb(244,87,69); */
+}
+.section3 .s3text p{
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+.section3 .s3box{
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 30px;
+    justify-content: space-between;
+}
+.section3 .s3box .s31{
+    width: 30%;
+    height: 520px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.section3 .s3box .s31 .s311{
+    width: 100%;
+    height: 95%;
+    border-radius: 30px;
+    transition: 0.5s;
+    position: relative;
+}
+.section3 .s3box .s31 .s311::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.121);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.4s;
+}
+.section3 .s3box .s31 .s311 img{
+    width: 100%;
+    height: inherit;
+    border-radius: 20px;
+}
+.section3 .s3box .s31 p{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.section3 .s3box .s31 .arr{
+   transform: rotate(45deg);
+   position: absolute;
+   top: 36%;
+   left: 38%;
+   width: 90px;
+   cursor: pointer;
+   opacity: 0;
+   transition: 0.5s;
+}
+.section3 .s3box .s31 .s311:hover{
+    filter: blur(3px);
+    cursor: pointer;
+}
+.section3 .s3box .s31:hover .arr{
+    opacity: 1;
+}
+.section3 .s3box .s31 .s311:hover::before{
+    opacity: 1;
+}
+
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+
+.section4{
+    width: 95%;
+    height: 3450px;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 2.5%;
+    margin-top: 40px;
+}
+#s3{
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 80px;
+}
+
+.section5{
+    width: 100%;
+    height: 950px;
+    /* border: 1px solid black; */
+    padding-inline: 40px;
+    padding-top: 100px;
+}
+.section5 .s51{
+    width: 60%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.section5 .s51 h1{
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+.section5 .s51 button{
+    background-color: rgb(244,87,69);
+    color: white;
+    width: 170px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.4s;
+    border: 2px solid rgb(244,87,69);
+}
+.section5 .s51 button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.section5 .s52{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.section5 .s52 .s5text{
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+.section5 .s52 .s5text h1{
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.section5 .s52 .s5text p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.section5 .s52 .s5text button{
+    background-color: rgb(244,87,69);
+    color: white;
+    width: 170px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.4s;
+    border: 2px solid rgb(244,87,69);
+}
+.section5 .s52 button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.section5 .s5box{
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    padding-right: 40px;
+    position: relative;
+    /* justify-content: center; */
+}
+.section5 .s5box .f1{
+    width: 400px;
+}
+.section5 .s5box .f2{
+    width: 320px;
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+.section5 .s53{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 40px;
+    align-items: center;
+    margin-top: 60px;
+}
+.section5 .s53 p{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section5 .s53 p span{
+    color: rgb(244,87,69);
+    font-weight: 600;
+    text-decoration: underline;
+}
+.section5 .s53 .fb5 button{
+    width: 100px;
+    height: 28px;
+    border-radius: 15px;
+    border: 1px solid rgb(135, 135, 135);
+    margin-left: 10px;
+    /* letter-spacing: 1px; */
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.section5 .s53 .fb5 button:hover{
+    border-color: rgb(244,87,69);
+    color: rgb(244,87,69);
+    cursor: pointer;
+}
